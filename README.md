@@ -33,3 +33,13 @@ Chat widget is called OnChat.
   ```
 
 3. MySql table for chat.
+
+  ```mysql
+  CREATE TABLE IF NOT EXISTS `tbl_chat` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `username` varchar(32) NOT NULL,
+    `datetime` int(11) NOT NULL,
+    `text` varchar(100) NOT NULL,
+    PRIMARY KEY (`id`)
+  ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+  ```
