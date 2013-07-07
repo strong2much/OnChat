@@ -1,8 +1,7 @@
-Chart widget
+Chat widget
 ============
 
-Chat widget is called OnChat. Widget is situated in 'protected/extensions/' folder. All code is in 'onchat' directory. 
-Do not rename this directory.
+Chat widget is called OnChat.
 
 ### Usage
 
